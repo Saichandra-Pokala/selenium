@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mavenproject">
+
+	<listeners>
+	<listener class-name="com.Mavenproject.utilities.Reporting"></listener>
+	</listeners>
+	<test name="Demo Test">
+      	<parameter name="browser" value="Chrome"/>
+      	<classes>
+      		<class name="com.Mavenproject.TestCases.TC_Enquiry_002"/>
+      	</classes>
+     </test>
+</suite>
